@@ -1,7 +1,7 @@
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <h2 class="mb-4">University Login</h2>
+            <h2 class="mb-4">User Login</h2>
             <form>
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
@@ -16,12 +16,11 @@
                     <select class="form-select" id="userType" required>
                         <option value="">Select User Type</option>
                         <option value="Admin">Admin</option>
-                        <option value="Student">Student</option>
-                        <option value="Faculty">Faculty</option>
+                        <option value="Staff">Staff</option>
+                        <option value="Member">Member</option>
                     </select>
                 </div>
                 <button type="button" class="btn btn-dark" (click)="Authentication()">Login</button>
             </form>
         </div>
     </div>
-</div>
